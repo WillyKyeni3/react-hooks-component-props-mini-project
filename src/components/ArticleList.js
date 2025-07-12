@@ -8,7 +8,13 @@ function ArticleList ( { posts }) {
     //make sure to assign a unique key attribute to each Article
     <main>
         {posts.map((post) => (
-            <Article key={post.id} title={post.title} date={post.date} preview={post.preview} />
+            <Article 
+            key={post.id} 
+            title={post.title} 
+            date={post.date} 
+            minutes={post.minutes}
+            preview={post.preview}
+             />
         ))}
 
     </main>
