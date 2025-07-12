@@ -13,8 +13,6 @@ function App() {
       <About 
       image={blogData.image} 
       about={blogData.about} />
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
       {/* Add ArticleList component here */}
       <ArticleList posts={blogData.posts} />
     </div>
